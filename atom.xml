@@ -4,7 +4,7 @@
   <title><![CDATA[Ricardo Borelli]]></title>
   <link href="http://rabc.github.com/atom.xml" rel="self"/>
   <link href="http://rabc.github.com/"/>
-  <updated>2011-11-06T18:08:48-02:00</updated>
+  <updated>2011-11-23T21:56:21-02:00</updated>
   <id>http://rabc.github.com/</id>
   <author>
     <name><![CDATA[Ricardo Borelli]]></name>
@@ -12,5 +12,110 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Backend X Mobile App: o que fazer o que não fazer e como fazer]]></title>
+    <link href="http://rabc.github.com/2011/11/23/backend-x-mobile-app-o-que-fazer-o-que-nao-fazer-e-como-fazer/"/>
+    <updated>2011-11-23T21:43:00-02:00</updated>
+    <id>http://rabc.github.com/2011/11/23/backend-x-mobile-app-o-que-fazer-o-que-nao-fazer-e-como-fazer</id>
+    <content type="html"><![CDATA[<p>Dificilmente um aplicativo mobile (qualquer plataforma, choose one) vive sozinho, 90% das vezes é necessário um back-end para guardar,
+transmitir, processar as informações.</p>
+
+<p>A programação nos dois lados não é igual, tanto em arquitetura quanto em padrões. E sofri muito até perceber isso, por isso apresento aqui
+os principais problemas, tanto de programação quanto humanos, que os dois lados encontram.</p>
+
+<h2>Nunca confie no dev na outra ponta (a menos que ele sente na mesma mesa que você)</h2>
+
+<p>A interface de um aplicativo mobile é, sim, complicada e cheia de detalhes. Esses detalhes, muitas vezes, só são vistos durante o desenvolvimento.</p>
+
+<p>Enquanto isso, as informações no back-end estão, geralmente, dispersas. A forma como elas devem ser reunidas e transmitidas afeta a
+arquitetura do projeto.</p>
+
+<p>Isso significa que alterações na forma que a informação deve ser enviada e recebida são inevitáveis nas duas pontas do projeto. É irreal esperar
+que somente um dos lados decida como isso será feito, esse tipo de decisão tem e deve ser tomada em conjunto (princípio
+<a href="http://en.wikipedia.org/wiki/ACID">ACID</a> se aplica nesse caso, já que os dois lados tem que garantir o que acontecerá com a informação).</p>
+
+<p>Se os dois desenvolvedores estiverem sentados perto um do outro, essas alterações e definições ficarão muito mais claras e fáceis de serem
+explicadas até que chegue a um consenso ou ao um meio-termo que fique bom para ambos.</p>
+
+<p>E o tema seguinte exemplifica por que isso é o ideal.</p>
+
+<h2>Reutilização não funciona aqui</h2>
+
+<p>&#8220;Não reinvente a roda&#8221;, eles dizem. Se já existe uma API pronta para acessar as informações que o aplicativo precisa, o dev do back-end
+não vai (com razão) criar outro serviço somente para o aplicativo. Afinal a informação já está lá, não?</p>
+
+<p>Não, não está.</p>
+
+<p>A forma como a informação deve ser apresentada em um aplicativo é bem diferente de qualquer outra plataforma. A informação tem que ser menor,
+mais direta, mais informativa e, ao mesmo tempo, mais condensada. O aplicativo não deve possuir todas as regras de negócio de um projeto, portanto
+o back-end deve trazer as informações do jeito certo e avisar caso tenha algum erro.</p>
+
+<p>Um número que outras plataformas apresentaram de modo inteiro, pode acontecer de no aplicativo precisar ser em string e já tratada. Se isso acontecer,
+como o desenvolvedor do back-end resolve? Cria-se uma nova chave somente para essa informação? (sim, fizeram isso comigo)</p>
+
+<h2>A conexão pode ser pior do que o dispositivo diz que é</h2>
+
+<p>Conexão móvel não é a melhor do mundo, lide com isso.</p>
+
+<p>Qualquer atraso na conexão pode gerar erro no retorno, informações inconsistentes com o que foi pedido e lentidão para o usuário.</p>
+
+<p>Isso também significa que a conexão do usuário está sendo utilizada enquanto esses erros são tratados pela plataforma. Conexão sendo utilizada
+leva a consumo do limite da banda do usuário e leva a um uso maior da bateria do dispositivo.</p>
+
+<p>Isso nos leva ao próximo item, que é&#8230;</p>
+
+<h2>Mobile, só você sabe o quanto de informação precisa (e pode) transmitir</h2>
+
+<p>Se der para fazer cache, faça. Se der para <a href="http://en.wikipedia.org/wiki/HTTP_ETag">verificar no servidor</a> se o conteúdo é novo, faça.</p>
+
+<p>Os dados do usuário não são infinitos e o seu aplicativo não tem direito a consumir tudo sozinho. E quanto mais informações, mais lento o
+aplicativo ficará.</p>
+
+<p>O back-end deve sempre retornar somente o necessário. O back-end retorna um item que o aplicativo não está utilizando? Remova-o. O aplicativo
+está enviando informação inútil para o back-end? Não envie. E é justamente por esses motivos que o JSON foi estabelecido e padronizado.
+Simples, direto e fácil.</p>
+
+<p>Já vivi situações em que o back-end retornava o JSON dos dados dentro de um pacote SOAP (sim, em XML). E o aplicativo enviava
+em SOAP também. E a conexão sofria com a quantidade de informações inúteis. E o aplicativo gastava processamento capturando o JSON dentro de um XML.</p>
+
+<h2>Se é back-end, programe em mobile. Se é mobile, programe em back-end</h2>
+
+<p>Já vivi os dois lados. Separados e juntos.</p>
+
+<p>No <a href="http://bit.ly/school_rating">School Rating</a>, produzi todo o back-end em Python e o aplicativo em Objective-C.</p>
+
+<p>Primeiro, o programador back-end (eu) estruturou todo o banco de dados, chamadas e retornos da API, conforme o que o programador mobile (eu) passou.
+Aí o programador mobile (eu) descobriu que precisava de algumas informações a mais. O programador back-end (eu) não gostou por ter que alterar
+a lógica para incluir mais dados. Mas o programador mobile (eu) foi legal e passou as informações do melhor jeito possível.</p>
+
+<p>Tudo isso me ajudou a ter uma visão de como os dois lados devem interagir e por que alterações nesse caso são necessárias (e quando elas devem
+ser necessárias).</p>
+
+<h2>Tipagem de dados foi inventada por um motivo</h2>
+
+<p>Um array deve sempre ser um array. Uma string sempre uma string. E um número sempre um número.</p>
+
+<p>Quem requisita os dados deve fazer o menor tratamento possível, principalmente quando estamos falando de um sistema mobile
+com memória e processamento limitados. Se uma determinada chave do JSON é uma lista (array), então <strong>sempre</strong> retorne uma lista, mesmo que ela
+seja vazia, e nunca um valor nulo ou string vazia.</p>
+
+<h2>Use e abuse dos http headers</h2>
+
+<p>Os cabeçalhos de uma requisição HTTP serão sempre tratados automaticamente, não importa o método de requisição utlizado, portanto é mais simples
+ler o response code do que perder tempo e processamento interpretando o corpo da resposta. O Level 2 do
+<a href="http://martinfowler.com/articles/richardsonMaturityModel.html">Richardson Maturity Model</a> explica bem sobre isso.</p>
+
+<p>Isso vale para as duas pontas da requisição. Um <strong>User-Agent</strong> pode diferenciar quem estão fazendo a requisição (se é um Android
+ou um iPhone, por exemplo). Um <strong>MIME</strong> pode <a href="http://blog.steveklabnik.com/2011/08/07/some-people-understand-rest-and-http.html">especificar</a>
+o que está sendo enviado.</p>
+
+<h2>Simplifique. Ou morra afogado no mar de informações.</h2>
+
+<p>Tudo o que disse leva a esse ponto: simplificar. Informações sem tratamento são apenas dados, e isso não interessa a quem quer a informação.</p>
+
+<p>Simplifique e seja feliz. Seu usuário agradece.</p>
+]]></content>
+  </entry>
   
 </feed>

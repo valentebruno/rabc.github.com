@@ -1,15 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>
+            http://rabc.github.com/2011/11/23/backend-x-mobile-app-o-que-fazer-o-que-nao-fazer-e-como-fazer/
+        </loc>
+        <lastmod>2011-11-23T21:49:45-02:00</lastmod>
+    </url>
+    <url>
         <loc>http://rabc.github.com/blog/archives/</loc>
-        <lastmod>2011-11-06T18:07:41-02:00</lastmod>
+        <lastmod>2011-11-23T21:49:45-02:00</lastmod>
     </url>
     <url>
         <loc>http://rabc.github.com/</loc>
-        <lastmod>2011-11-06T18:07:41-02:00</lastmod>
+        <lastmod>2011-11-23T21:49:45-02:00</lastmod>
     </url>
     <url>
         <loc>http://rabc.github.com/sobre/</loc>
-        <lastmod>2011-11-06T18:07:41-02:00</lastmod>
+        <lastmod>2011-11-23T21:18:40-02:00</lastmod>
     </url>
 </urlset>
