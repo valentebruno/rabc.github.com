@@ -4,7 +4,7 @@
   <title><![CDATA[Ricardo Borelli]]></title>
   <link href="http://rabc.github.com/atom.xml" rel="self"/>
   <link href="http://rabc.github.com/"/>
-  <updated>2011-11-23T21:56:21-02:00</updated>
+  <updated>2011-12-04T22:50:49-02:00</updated>
   <id>http://rabc.github.com/</id>
   <author>
     <name><![CDATA[Ricardo Borelli]]></name>
@@ -12,6 +12,47 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Lição #1: Esqueça tudo o que você sabe]]></title>
+    <link href="http://rabc.github.com/2011/12/04/licao-1-esqueca-tudo-o-que-voce-sabe/"/>
+    <updated>2011-12-04T22:50:00-02:00</updated>
+    <id>http://rabc.github.com/2011/12/04/licao-1-esqueca-tudo-o-que-voce-sabe</id>
+    <content type="html"><![CDATA[<p>Aprender um novo idioma é difícil. Você se sente como uma criança de 5 anos tentando repetir (sem sucesso) o alfabeto, enquanto procura sentido
+e algum padrão no que está falando. Até que você percebe que existem palavras e estrutura parecidas, mas completamente diferente, e desiste
+de tentar relacionar o novo idioma com o seu idioma nativo.</p>
+
+<p>Concorda? Agora, me explique: por que não fazer o mesmo ao aprender uma nova linguagem de programação?</p>
+
+<h2>Linguagens diferentes exigem padrões diferentes</h2>
+
+<p><a href="http://en.wikipedia.org/wiki/Software_design_pattern">Design Patterns</a> é o que não falta. Cada um foi concebido com alguma linguagem em mente
+(exceto quando autores utilizam pseudo-código, mas divago), utilizando seus padrões já pré-estabelecidos.</p>
+
+<p>O que vejo muito é que alguns programadores tentam fazer um <em>port</em> de sua linguagem preferida ao aprender uma nova linguagem. Com isso, tentam
+emular o mesmo ambiente que tinham antes e ganhar tempo no aprendizado. <em>Isso está completamente errado.</em></p>
+
+<p>Pode até funcionar no começo, mas se prepare para as consequências futuras quando o seu software começar a dar problema pelo fato de a linguagem
+não ter suportado tão bem a estrutura que você criou.</p>
+
+<div style="text-align:center;">
+<img src="http://i.imgur.com/QV88c.jpg" width="400" height="317">
+<br />
+<p style="font-size:14px;">Quem nunca passou por isso?
+</div>
+
+
+<p>Um DTO que funciona muito bem em Java pode (e vai) dar muitos problemas no seu projeto em Objective-C. A validação <em>server-side</em> única e automática
+que existe no .NET vai te dar muito trabalho para imitar em PHP.</p>
+
+<h2>Lição #2: não existe lição número 2</h2>
+
+<p>Cada linguagens já tem estruturas próprias feitas exatamente para facilitar sua vida, cabe a você ler as enormes documentações e clicar
+em seus milhares de links e StackOverflows para descobrir cada uma delas e como elas funcionam.</p>
+
+<p>Aprender uma nova linguagem é difícil e leva tempo. Lide com isso.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Backend X Mobile App: o que fazer o que não fazer e como fazer]]></title>
