@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: lei, | Ricardo Borelli]]></title>
-  <link href="http://rabc.github.com/blog/categories/lei-/atom.xml" rel="self"/>
+  <title><![CDATA[Category: lei | Ricardo Borelli]]></title>
+  <link href="http://rabc.github.com/blog/categories/lei/atom.xml" rel="self"/>
   <link href="http://rabc.github.com/"/>
-  <updated>2011-12-29T20:09:09-02:00</updated>
+  <updated>2011-12-29T20:22:07-02:00</updated>
   <id>http://rabc.github.com/</id>
   <author>
     <name><![CDATA[Ricardo Borelli]]></name>
