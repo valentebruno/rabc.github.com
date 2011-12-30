@@ -23,18 +23,17 @@ publicados ou já publicados na App Store. Também aproveito para programar em P
 Ah, geolocalização é uma das minhas paixões (talvez por isso que MapKit tenha sido a primeira coisa que aprendi no iPhone), então você irá encontrar
 alguns posts sobre isso por aqui.
 
-<header>
-# Por que escrever? #
-</header>
+## Por que escrever? ##
 
 Sempre gostei de escrever, mesmo não tendo muita inspiração para isso. Aí percebi que os devs que admiro além de programadores também escrevem: 
 [Joel Spolsky](http://www.joelonsoftware.com/), [Jeff Atwood](http://www.codinghorror.com), [Matt Gemmel](http://mattgemmell.com).
 
+Aqui você não vai encontrar posts com excesso de links para provar um ponto. Os posts são baseados em experiências próprias ou no que acredito
+como as coisas devem ser.
+
 Este blog é feito no [Octopress](http://octopress.org), hospedado no GitHub e escrito em Markdown. Simples e direto, o tipo de blog ideal para programadores.
 
-<header>
-# O que mais? #
-</header>
+## O que mais? ##
 
 Meu twitter é esse aqui: [@rabc](http://twitter.com/rabc)
 
