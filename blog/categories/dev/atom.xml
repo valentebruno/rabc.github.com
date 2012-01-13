@@ -4,7 +4,7 @@
   <title><![CDATA[Category: dev | Ricardo Borelli]]></title>
   <link href="http://rabc.github.com/blog/categories/dev/atom.xml" rel="self"/>
   <link href="http://rabc.github.com/"/>
-  <updated>2011-12-30T12:55:32-02:00</updated>
+  <updated>2012-01-13T21:00:07-02:00</updated>
   <id>http://rabc.github.com/</id>
   <author>
     <name><![CDATA[Ricardo Borelli]]></name>
@@ -24,6 +24,9 @@ de tentar relacionar o novo idioma com o seu idioma nativo.</p>
 
 <p>Concorda? Agora, me explique: por que não fazer o mesmo ao aprender uma nova linguagem de programação?</p>
 
+<!-- more -->
+
+
 <h2>Linguagens diferentes exigem padrões diferentes</h2>
 
 <p><a href="http://en.wikipedia.org/wiki/Software_design_pattern">Design Patterns</a> é o que não falta. Cada um foi concebido com alguma linguagem em mente
@@ -38,7 +41,7 @@ não ter suportado tão bem a estrutura que você criou.</p>
 <div style="text-align:center;">
 <img src="http://i.imgur.com/QV88c.jpg" width="400" height="317">
 <br />
-<p style="font-size:14px;">Quem nunca passou por isso?
+<p style="font-size:14px;">Quem nunca passou por isso?</p>
 </div>
 
 

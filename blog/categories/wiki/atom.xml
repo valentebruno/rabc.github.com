@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: wiki | Ricardo Borelli]]></title>
+  <link href="http://rabc.github.com/blog/categories/wiki/atom.xml" rel="self"/>
+  <link href="http://rabc.github.com/"/>
+  <updated>2012-01-13T21:00:07-02:00</updated>
+  <id>http://rabc.github.com/</id>
+  <author>
+    <name><![CDATA[Ricardo Borelli]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Wikifique-se e recupere sua sanidade]]></title>
+    <link href="http://rabc.github.com/2012/01/13/wikifique-se-e-recupere-sua-sanidade/"/>
+    <updated>2012-01-13T20:33:00-02:00</updated>
+    <id>http://rabc.github.com/2012/01/13/wikifique-se-e-recupere-sua-sanidade</id>
+    <content type="html"><![CDATA[<p>(apesar desse post falar em alguns termos técnicos, recomendo continuar a leitura mesmo que você não seja programador)</p>
+
+<p>Sempre fui um <em>migrante tecnológico</em>: de programação desktop para web e para mobile, de Windows para Linux e para Mac OS X (é impossível
+ser programador sem conhecer Unix, mas isso é assunto para outro post), de Java para PHP e para JavaScript, de C# para Objective-C e para Python.</p>
+
+<p>Como todo bom programador teimoso, sempre insisti no "meu cérebro guarda tudo!" (talvez por isso que minhas mesas sempre foram desorganizadas,
+mas divago), até que descobri que não, eu não lembrava de tudo na hora em que precisava. Aí achei
+<a href="http://eriwen.com/tools/wikify-yourself/">esse post</a> que me mostrou a salvação: criar uma Wiki pessoal.</p>
+
+<!-- more -->
+
+
+<h2>Mas tudo o que preciso o Google e StackOverflow encontram, não?</h2>
+
+<p>Não de um jeito que o seu cérebro reconheça facilmente e não faça você perder alguns minutos procurando, lendo e tentando entender. A internet
+é um excelente repositório de dados mas é péssima em informações.</p>
+
+<p>Uma Wiki pessoal pode ser acessada de qualquer máquina e organizada da maneira que você, e somente você, entenderá com as informações relevantes
+e recorrentes. A Wiki não é um depósito indiscriminado de links ou textos, e sim um lugar onde você pode guardar o tipo de informação que
+sempre vai precisar ter a mão: informações dos seus projetos, referências das linguagens e softwares que você utiliza, sua agenda, servidores
+e sites que você utiliza.</p>
+
+<div style="text-align:center;">
+<img src="/images/post_wiki/markdown_wiki.png" width="400" height="223">
+<br />
+<p style="font-size:14px;">Minha referência de Markdown enquanto escrevo esse post</p>
+</div>
+
+
+<h2>Uma Wiki que não precisa ser instalada em um servidor</h2>
+
+<p>O <a href="http://www.tiddlywiki.com/">Tiddlywiki</a> é uma engine feita em Java que roda diretamente no browser e que guarda tudo em um banco de dados interno.
+Tiddlywiki e Dropbox formam a dupla perfeita: fácil de guardar e de ser acessado de qualquer lugar.</p>
+
+<p>Eu aceitei a sugestão do post que citei lá em cima e utilizo o <a href="http://www.dcubed.ca/Welcome_to_d-cubed.html">d-cubed</a>, que é um Tiddlywiki
+pré-configurado.</p>
+
+<h2>Saiba o que guardar</h2>
+
+<p>Referências rápidas, estruturado de uma forma que você reconheça rapidamente. Se a Wiki será minimalista ou expansiva é uma decisão sua,
+desde que você se encontre nela.</p>
+
+<div style="text-align:center;">
+<img src="/images/post_wiki/sidebar.png" width="400" height="398">
+<br />
+<p style="font-size:14px;">Isso é o que a minha Wiki tem atualmente</p>
+</div>
+
+
+<p>O d-cubed já vem com uma boa estrutura para separar os tipos de informações. Essa estrutura pode parecer complicada no começo (e, acredite,
+você ficará perdido até entender), mas tudo dentro dele se conecta de uma forma fácil de ser administrada.</p>
+
+<h2>Sua sanidade de volta</h2>
+
+<p>Construir uma Wiki não é somente um exercício de organização e escrita. É também uma forma de entender melhor como alguma coisa funciona ao criar
+um novo item, uma forma de ter uma visão geral do seu projeto e de ter informações sempre a mão.</p>
+
+<p>Produtividade e organização viram apenas palavras quando suas informações são apenas dados.</p>
+]]></content>
+  </entry>
+  
+</feed>
