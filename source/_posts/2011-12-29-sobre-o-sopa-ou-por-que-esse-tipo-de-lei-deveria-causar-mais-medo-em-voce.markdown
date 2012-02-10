@@ -12,6 +12,8 @@ Americanos adoram criar siglas para suas leis: DMCA, ACTA, COICA. E a lei do mom
 somente o seu conteúdo, mas **você** também. O [Gemind](http://www.gemind.com.br/5746/empresa-tecnologia-contra-sopa-eua/) e o 
 [Reddit](http://www.reddit.com/r/explainlikeimfive/comments/meh0k/eli5_sopa/c30cyoy) explicam em detalhes.
 
+<!-- more -->
+
 ## Tá, mas o que isso tem a ver comigo que moro em outro hemisfério? ##
 
 **Tudo.**

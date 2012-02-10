@@ -12,6 +12,8 @@ de tentar relacionar o novo idioma com o seu idioma nativo.
 
 Concorda? Agora, me explique: por que não fazer o mesmo ao aprender uma nova linguagem de programação?
 
+<!-- more -->
+
 ## Linguagens diferentes exigem padrões diferentes ##
 
 [Design Patterns](http://en.wikipedia.org/wiki/Software_design_pattern) é o que não falta. Cada um foi concebido com alguma linguagem em mente
@@ -26,7 +28,7 @@ não ter suportado tão bem a estrutura que você criou.
 <div style="text-align:center;">
 {% img http://i.imgur.com/QV88c.jpg 400 317 %}
 <br />
-<p style="font-size:14px;">Quem nunca passou por isso?
+<p style="font-size:14px;">Quem nunca passou por isso?</p>
 </div>
 
 Um DTO que funciona muito bem em Java pode (e vai) dar muitos problemas no seu projeto em Objective-C. A validação _server-side_ única e automática

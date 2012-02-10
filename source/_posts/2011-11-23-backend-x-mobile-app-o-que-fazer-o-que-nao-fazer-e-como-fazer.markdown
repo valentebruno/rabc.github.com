@@ -12,6 +12,8 @@ transmitir, processar as informações.
 A programação nos dois lados não é igual, tanto em arquitetura quanto em padrões. E sofri muito até perceber isso, por isso apresento aqui
 os principais problemas, tanto de programação quanto humanos, que os dois lados encontram.
 
+<!-- more -->
+
 ## Nunca confie no dev na outra ponta (a menos que ele sente na mesma mesa que você) ##
 
 A interface de um aplicativo mobile é, sim, complicada e cheia de detalhes. Esses detalhes, muitas vezes, só são vistos durante o desenvolvimento.

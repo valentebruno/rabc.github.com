@@ -30,18 +30,25 @@ o aplicativo para ver se vale a pena manter no ar ou se coloco o código no Gith
 
 {% img /images/projetos/schoolrating_01.jpg 320 480 %} {% img /images/projetos/schoolrating_02.jpg 320 480 %}
 
-## Bradesco Saúde ##
+## WinMobile ##
 
-Esse projeto foi um duplo desafio: primeiro feito de forma profissional pela [Maya](http://www.maya.im) e o primeiro com integração com back-end
-em SOAP.
+Esse talvez tenha sido o maior desafio em termos de aplicativo que já fiz: um _home broker_ pelo iPhone, com cotações em tempo real e possibilidade
+de operar na bolsa diretamente pelo aplicativo.  
 
-{% img /images/projetos/saude_01.jpg 320 480 %} {% img /images/projetos/saude_02.jpg 320 480 %}
+{% img /images/projetos/winmobile_01.jpg 320 480 %} {% img /images/projetos/winmobile_02.jpg 320 480 %}
 
 ## iG Futebol ##
 
 Participei da re-formulação completa do aplicativo, deixando ele com uma cara nova, mais rápido e com uma versão para iPad.  
 
 {% img /images/projetos/igfutebol_01.jpg 320 480 %} {% img /images/projetos/igfutebol_02.jpg 480 480 %}
+
+## Bradesco Saúde ##
+
+Esse projeto foi um duplo desafio: primeiro feito de forma profissional pela [Maya](http://www.maya.im) e o primeiro com integração com back-end
+em SOAP.
+
+{% img /images/projetos/saude_01.jpg 320 480 %} {% img /images/projetos/saude_02.jpg 320 480 %}
 
 ## Gitmark ##
 
