@@ -1,0 +1,70 @@
+---
+layout: post
+title: "Caos."
+date: 2012-04-02 20:48
+comments: true
+categories: [processo, vida]
+---
+
+> “Introduce a little anarchy, upset the established order, and everything becomes chaos, I’m an agent of chaos, 
+> and you know the thing about chaos? It’s fair.” 
+> 
+> **Joker** 
+
+Existem várias _buzzwords_ para descrever organização: simplicidade, minimalismo, Getting Things Done. Todas partem do princípio de que
+tudo tem que estar em seu devido lugar, nada pode ser desorganizado. Por que?
+
+Essas buzzwords se vendem com o mesmo ideal: algo para ajudar a se concentrar no que realmente é importante, já que tudo estará classificado 
+e organizado, como livros em uma estante. Flash News: você não tem controle sobre o Universo.
+
+<!--more-->
+
+## Rotina é um saco ##
+
+Já tentei me forçar a um processo diário, mas cedo ou tarde eu sempre me irritava em seguir as regras e em classificar tudo. Percebi que 
+quanto mais eu tentava organizar o mundo a minha volta, mais eu me perdia dentro dele.
+
+Organização parte do princípio de que as coisas serão previsíveis, mas o problema nisso é que, quanto mais previsível, maior a sua chance 
+de não ter espaço para sair disso quando surgir algo fora dessa organização. 
+[Bárbaros tinham uma disciplina maior](http://articles.latimes.com/1992-02-23/business/fi-5118_1_borland-international-chairman-philippe-kahn) 
+do que os Europeus justamente por não tentarem organizar cada pedaço do mundo ao seu redor e por trabalharem em unidades menores.
+
+A minha [wiki](http://rabc.github.com/2012/01/13/wikifique-se-e-recupere-sua-sanidade/) não é uma tentativa de controlar meu cérebro, mas sim
+uma maneira mais visual do caos em que meus conhecimentos existem.
+
+## Processo te deixa conformado 
+
+> Men must want to do things out of their own innermost drives. People, not commercial organizations or chains of command, are what makes 
+> great civilizations work. Every civilization depends upon the quality of the individuals it produces. If you over-organize humans, 
+> over-legalize them, suppress their urge to greatness—they cannot work and their civilization collapses.
+> 
+> **Frank Herbert in "A letter to CHOAM Attributed to The Preacher" in Children of Dune**
+
+Seguir um processo significa seguir o seu passo-a-passo. Isso também significa que você não vai aprender nada, já que sempre dependerá de 
+algo te dizendo o que fazer.
+
+Resistir a um [processo](http://teddziuba.com/2011/12/process.html) não significa sempre fazer as coisas do jeito errado. Significa aprender 
+com os erros. Fail more to fail better.
+
+Eu continuo cometendo os mesmos erros de 5 anos atrás, a diferença é que quando tentava seguir um processo eu nunca sabia por que as coisas 
+davam errado. Agora sei por que estou errando.
+
+Outro perigo de seguir um processo é você forçar as pessoas a sua volta a entrarem dentro desse seu mundo apenas porque você não quer correr 
+o risco de sentir desorganizado.
+
+## Caos te deixa preparado para o inesperado 
+
+<div style="text-align:center;">
+	<a href="/images/chaos.jpg">{% img /images/chaos.jpg 300 218 %}</a>
+	<br />
+	<p style="font-size:14px;">Fonte: <a href="http://www.reddit.com/tb/qzhoz">http://www.reddit.com/tb/qzhoz</a></p>
+</div>
+
+Caos não é previsível, caos é o que vai [chamar sua atenção](http://lifehacker.com/5881054/order-is-never-observed-it-is-disorder-that-attracts-attention-because-it-is-awkward-and-intrusive) 
+quando algo realmente precisar dela. Quando algo não pode ser controlado com sua organização e o seu processo tradicionais, o que você faz? 
+Sai correndo com a mão na cabeça?
+
+Fazer o seu mundo ser caótico faz com que você regule mais o seu modo de agir, pois sabe que não terá um passo-a-passo para seguir caso 
+algo dê errado. Isso sim leva a uma organização melhor, já que você saberá o que fazer para que o caos não saia de controle.
+
+Faça um pouco do seu mundo ser caótico e se torne um pouco menos conformista.

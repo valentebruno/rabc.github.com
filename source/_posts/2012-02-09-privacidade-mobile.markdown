@@ -3,7 +3,7 @@ layout: post
 title: "Privacidade Mobile"
 date: 2012-02-09 21:22
 comments: true
-categories: 
+categories: [mobile, engenharia]
 ---
 
 Privacidade. Essa palavrinha que faz mágica quando se quer criar histerias coletivas.

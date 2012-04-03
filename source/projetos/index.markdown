@@ -6,8 +6,8 @@ sharing: true
 footer: true
 ---
 
-Uma maneira mais rápida de ver o que eu já fiz é olhar na minha página no [Geekli.st](http://geekli.st/rabc). A maneira mais longa é olhar
-abaixo os projetos que participo/participei.
+Uma maneira mais rápida de ver o que eu já fiz é olhar na minha página no [Coderwall](http://coderwall.com/rabc) e no 
+[Geekli.st](http://geekli.st/rabc). A maneira mais longa é olhar abaixo os projetos que participo/participei.
 
 ## Feriados App [indie] ##
 
@@ -25,8 +25,10 @@ do Foursquare para ver como estava a API deles.
 
 O back-end que dá suporte ao aplicativo foi feito em Python utilizando o framework [Flask](http://flask.pocoo.org/) e hospedado no Google AppEngine.
 
-Não obteve cobertura de sites especializados como eu gostaria, portanto sem muitos usuários. Por causa disso, atualmente estou re-avaliando
-o aplicativo para ver se vale a pena manter no ar ou se coloco o código no Github.
+Não obteve cobertura de sites especializados como eu gostaria, portanto sem muitos usuários. <strike>Por causa disso, atualmente estou 
+re-avaliando o aplicativo para ver se vale a pena manter no ar ou se coloco o código no Github</strike>.
+
+Em Março/2012 retirei da App Store e [publiquei o código](https://github.com/rabc/SchoolRating) com os detalhes e um _post-mortem_ do projeto.
 
 {% img /images/projetos/schoolrating_01.jpg 320 480 %} {% img /images/projetos/schoolrating_02.jpg 320 480 %}
 
