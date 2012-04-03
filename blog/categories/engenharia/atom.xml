@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: engenharia | Ricardo Borelli]]></title>
+  <link href="http://rabc.github.com/blog/categories/engenharia/atom.xml" rel="self"/>
+  <link href="http://rabc.github.com/"/>
+  <updated>2012-04-02T21:30:12-03:00</updated>
+  <id>http://rabc.github.com/</id>
+  <author>
+    <name><![CDATA[Ricardo Borelli]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Privacidade Mobile]]></title>
+    <link href="http://rabc.github.com/2012/02/09/privacidade-mobile/"/>
+    <updated>2012-02-09T21:22:00-02:00</updated>
+    <id>http://rabc.github.com/2012/02/09/privacidade-mobile</id>
+    <content type="html"><![CDATA[<p>Privacidade. Essa palavrinha que faz mágica quando se quer criar histerias coletivas.</p>
+
+<p>Minha opinião sobre isso é a seguinte: quer privacidade? Então saia do Foursquare e pare de postar suas fotos no Instagram e no Facebook, pois
+privacidade na internet é uma questão de escolha pessoal - em alguns casos como o <a href="https://www.path.com/">Path</a> mostrou.</p>
+
+<p>Path se vende como uma "rede social privada": você compartilha seus momentos com as pessoas mais próximas. Essa semana, um desenvolvedor
+<a href="http://mclov.in/2012/02/08/path-uploads-your-entire-address-book-to-their-servers.html">descobriu</a> que o aplicativo deles enviava para um servidor
+<strong>toda</strong> a sua lista de contatos do iPhone sem pedir autorização.</p>
+
+<!-- more -->
+
+
+<h2>A decisão errada: A API é fácil e está ali para ser utilizada</h2>
+
+<p>Na web o usuário sempre foi tratado de forma <em>ativa</em>. Porém, em dispositivos móveis muitas vezes o usuário faz o papel de agente <em>passivo</em>, pois
+é algo pequeno e com o qual as pessoas não querem ter muito trabalho ao utilizar (ao contrário do paradigma de se utilizar um computador). Então
+por que continuamos programando como se o usuário não carregasse informações importantes?</p>
+
+<p>Qualquer um que utilize o iPhone sabe que existem dois pedidos básicos de informação que ele faz para cada aplicativo, quando necessário:
+se você autoriza o aplicativo a utilizar sua localização e se você autoriza receber notificações (<em>Push</em>).</p>
+
+<p>Porém, a API da lista de contatos não pede autorização e alguns desenvolvedores que
+<a href="http://dcurt.is/stealing-your-address-book">é aceitável utilizar essa informação</a> sem a permissão do usuário. Mais errado do que esse
+pensamento, só jogar a culpa na Apple.</p>
+
+<h2>Don't shoot the messenger</h2>
+
+<p>Imagine ser bombardeado por pedidos de autorização cada vez que o aplicativo resolve acessar alguma informação do usuário.</p>
+
+<p>A Apple não faz isso pois ela conta com um item que todo desenvolvedor e empreendedor deve ter: ética. O Path mostrou isso no
+<a href="http://blog.path.com/post/17274932484/we-are-sorry">pedido de desculpas</a> ao dizer que todos os dados seriam apagados.</p>
+
+<p>Muitas vezes o maior desafio não é desenvolver um sistema, prevendo sua alta disponibilidade e outras <em>buzzwords</em>. O maior desafio
+pode ser fazer o seu usuário confiar em você, sabendo que os dados dele serão tratados como algo sagrado e inviolável.</p>
+
+<h2>Privacidade, mesmo quando autorizado o uso da informação</h2>
+
+<p>Certa vez, comecei um aplicativo em que seria necessário requisitar a geolocalização do usuário e enviar essa informação para um servidor.
+Minha preocupação desde o início era: como vou guardar essas informações sem que elas sejam relacionados diretamente a alguém?</p>
+
+<p>A solução que encontrei foi guardar separadamente a localização sem que ela estivesse relacionada diretamente com qualquer outra coisa
+dentro do sistema. Assim garanto que ela não seria de fácil manipulação e ao mesmo tempo consigo os dados que o meu sistema precisaria.</p>
+
+<p>Seja transparante. Só pegue os dados que realmente precisar. Criptografe. Identifique de uma maneira que somente o seu sistema entenda.
+<a href="http://blog.securemacprogramming.com/2012/02/on-privacy-hashing-and-your-customers/">Crie um hash</a> das informações.</p>
+
+<p>São esses tipos de detalhes que fazem a diferença. Confiança é a melhor moeda de troca com a pessoa que vai utilizar seu sistema.</p>
+]]></content>
+  </entry>
+  
+</feed>

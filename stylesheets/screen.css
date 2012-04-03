@@ -228,6 +228,7 @@ blockquote {
 	padding-left:1em;
 	border-left:4px solid rgba(170,170,170,0.5)
 }
+
 blockquote cite {
 	font-style:italic
 }
@@ -241,6 +242,7 @@ blockquote cite:before {
 	padding-left:.3em;
 	color:#aaa
 }
+
 @media only screen and (min-width:992px) {
 	blockquote {
 		padding-left:1.5em;
