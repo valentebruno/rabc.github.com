@@ -5,11 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: engenharia - Ricardo Borelli</title>
+  <title>A arquitetura de $1 bilhão (ou por que não se vive somente do número de usuários) - Ricardo Borelli</title>
   <meta name="author" content="Ricardo Borelli">
 
   
-  <meta name="description" content="Category: engenharia">
+  <meta name="description" content="Ultimamente, todas as métricas sobre uma startup falam do seu número de usuários. Claro que com a compra Instagram não poderia ser diferente.
+Mas &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://rabc.github.comblog/categories/engenharia">
+  <link rel="canonical" href="http://rabc.github.com/2012/04/09/a-arquitetura-de-bilhao-ou-por-que-nao-se-vive-somente-do-numero-de-usuarios">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -79,35 +80,135 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: Engenharia</h1>
+    
+      <h1 class="entry-title">A Arquitetura De $1 Bilhão (Ou Por Que Não Se Vive Somente Do Número De Usuários)</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-09T20:55:00-03:00" pubdate data-updated="true">Apr 9<span>th</span>, 2012</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>Ultimamente, todas as métricas sobre uma startup falam do seu número de usuários. Claro que com a compra Instagram não poderia ser diferente.
+Mas existe, sim, algo além disso que poucos falam: a arquitetura do sistema.</p>
 
-  
-  <h2>2012</h2>
+<p>A arquitetura do Facebook é tosca, como sempre foi e será por um bom tempo. Um destino <a href="http://gigaom.com/cloud/facebook-trapped-in-mysql-fate-worse-than-death/">pior que a morte</a>,
+mesmo com as constantes inovações, como o <a href="http://cassandra.apache.org/">Cassandra</a> e o <a href="https://github.com/facebook/hiphop-php">HipHop</a>. 90%
+dos sistemas feitos são os famosos <a href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a>, então quando um sistema deixa
+de ser somente isso, fica difícil pensar como fazer sem deixar gargalos.</p>
 
-<article>
-  
-<h1><a href="/2012/02/09/privacidade-mobile/">Privacidade Mobile</a></h1>
-<time datetime="2012-02-09T21:22:00-02:00" pubdate><span class='month'>Feb</span> <span class='day'>09</span> <span class='year'>2012</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/engenharia/'>engenharia</a>, <a class='category' href='/blog/categories/mobile/'>mobile</a></span>
-</footer>
+<!--more-->
 
 
-</article>
+<h2>O milagre da multiplicação dos usuários</h2>
 
+<div class='embed tweet'><blockquote class="twitter-tweet tw-align-center" lang="pt"><p>It took AOL 9 years to hit 1 million users. Facebook 9 months. Draw Something 9 days.</p>&mdash; Shane Mac (@ShaneMac) <a href="https://twitter.com/ShaneMac/status/182559236763553792" data-datetime="2012-03-21T20:08:08+00:00">março 21, 2012</a></blockquote>
+<script src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+
+<p></p>
+
+<p>A matemática é simples: quanto mais usuários, mais gente consumindo os anúncios. Não somente o Facebook, mas todos dependem de você: Google,
+boo-box e tantos outros. Nesse cenário fica mais fácil se apegarem somente a métricas de quanto cada usuário vale para a startup.</p>
+
+<p>Só que essa métrica não é nada sem que esses milhares de usuários tenham uma boa experiência no uso da plataforma. As pessoas não utilizam
+o Instagram apenas por causa de seus filtros, elas utilizam por que ele é rápido, confiável e fácil. E isso não se consegue do dia para a noite.</p>
+
+<h2>A engenharia e arquitetura do sistema é tudo</h2>
+
+<p>Vejamos a arquitetura do Instagram:</p>
+
+<blockquote><ul>
+<li>Gunicorn as their WSGI server. Apache harder to configure and more CPU intensive.</li>
+<li>Fabric is used to execute commands in parallel on all machines. A deploy takes only seconds.</li>
+<li>PostgreSQL (users, photo metadata, tags, etc) runs on 12 Quadruple Extra-Large memory instances.</li>
+<li>Pgbouncer is used pool connections to PostgreSQL.</li>
+<li>Redis powers their main feed, activity feed, sessions system, and other services.</li>
+</ul>
+
+
+<p>Fonte: <a href="http://highscalability.com/blog/2012/4/9/the-instagram-architecture-facebook-bought-for-a-cool-billio.html">High Scalability</a></p></blockquote>
+
+<p>Pois é. Tudo tecnologia de ponta (<em>cutting edge tech</em>, como eles gostam de chamar) que o Facebook não utiliza pois o sistema deles não foi
+feito com isso em mente e implementar tudo isso agora, a beira de um IPO, seria caro demais. Solução? <em>Acqui-hire</em>.</p>
+
+<p>Comprando o Instagram, o Facebook leva todo esse sistema e, de brinde, a equipe de 16 pessoas que conseguiu construir tudo isso do zero. É o tipo
+de situação win-win: investidores, fundadores e funcionários do Instagram conseguem um bom dinheiro, Facebook consegue uma equipe já experiente
+com o tipo de tecnologia que eles mais precisam.</p>
+
+<h2>A mágica acontece por trás</h2>
+
+<p>Vivemos em uma indústria onde tudo isso muda rapidamente. A arquitetura do Facebook é tosca por que isso fazia sentido quando ele foi feito. Hoje,
+o Facebook não tem mais fôlego nem tamanho para sair testando e batendo cabeça com essas novas tecnologias como uma equipe de 16 pessoas consegue.</p>
+
+<p>Desenvolvedores são as pessoas que ficam por trás da cortina, por isso mesmo que eles são os mais importantes. Sem conhecer o que há
+de mais novo, você estará sempre para trás na corrida pela inovação.</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Ricardo Borelli</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-09T20:55:00-03:00" pubdate data-updated="true">Apr 9<span>th</span>, 2012</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://rabc.github.com/2012/04/09/a-arquitetura-de-bilhao-ou-por-que-nao-se-vive-somente-do-numero-de-usuarios/" data-via="rabc" data-counturl="http://rabc.github.com/2012/04/09/a-arquitetura-de-bilhao-ou-por-que-nao-se-vive-somente-do-numero-de-usuarios/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2012/04/02/caos/" title="Previous Post: Caos.">&laquo; Caos.</a>
+      
+      
+    </p>
+  </footer>
 </article>
 
 </div>
