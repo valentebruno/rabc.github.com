@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "sobre"
+title: "Sobre"
 
 comments: false
 sharing: true
@@ -10,12 +10,15 @@ footer: true
 Aqui quem fala (ou escreve) é Ricardo Borelli. Vivo e moro em São Paulo. Acredito que programar é mais uma arte do que algo exato, por isso estou 
 sempre a procura de coisas novas para entender como funcionam e melhorar a arquitetura e engenharia do que programo.
 
-Comecei programando em ASP e Visual Basic 6 (todos tem um passado negro), depois fui para Java e C/C++ durante a faculdade. 
+Comecei programando em ASP e Visual Basic 6 (todo mundo tem um passado negro), depois fui para Java e C/C++ durante a faculdade. 
 Em seguida, passei a maior parte do tempo em web com PHP, Javascript ([hipster]quando todos odiavam javascript e jQuery estava só começando[/hipster]), 
 .NET/C#, MySQL e MS SQL Server.
 
 Até que o dia que terminei um [framework PHP](https://github.com/rabc/Simple-Framework) vi que já tinha feito tudo o que poderia fazer em web e decidi
-ir para o mundo mobile do iPhone, onde estou atualmente, já que eu queria voltar a programar ao estilo C.
+ir para o mundo mobile do iPhone, já que eu queria voltar a programar ao estilo C.
+
+Em 2012, tive uma oportunidade de voltar um pouco para web, voltando a trabalhar com PHP. Descobri que o período exclusivo em mobile me ajudou
+a melhorar a visão dessa área, fazendo algumas coisas diferentes como projetos com Arduino.
 
 Como programar é uma arte, ela não pode ficar sem ser praticada. Então, nas horas vagas sou indie dev, com 5 aplicativos para iPhone
 publicados ou já publicados na App Store. Também aproveito para programar em Python e node.js, enquanto aprendo PostgreSQL e MongoDB.
@@ -41,4 +44,3 @@ As minhas brincadeiras com código você acha no GitHub: [http://github.com/rabc
 
 Meus mais diversos pitacos você acha no [HackerNews](http://news.ycombinator.com/user?id=rabc) e no [iPhoneDevBrazil](http://groups.google.com/group/iphonedevbrazil)
 
-Também tenho alguns tópicos no Scoop.it: [http://www.scoop.it/u/rabc](http://www.scoop.it/u/rabc)
