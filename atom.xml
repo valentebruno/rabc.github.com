@@ -4,7 +4,7 @@
   <title><![CDATA[Ricardo Borelli]]></title>
   <link href="http://rabc.github.com/atom.xml" rel="self"/>
   <link href="http://rabc.github.com/"/>
-  <updated>2012-06-26T22:33:48-03:00</updated>
+  <updated>2013-01-13T13:58:45-02:00</updated>
   <id>http://rabc.github.com/</id>
   <author>
     <name><![CDATA[Ricardo Borelli]]></name>
@@ -14,63 +14,58 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Enquanto você reclama, tem gente fazendo acontecer]]></title>
-    <link href="http://rabc.github.com/2012/06/26/enquanto-voce-reclama-tem-gente-fazendo-acontecer/"/>
-    <updated>2012-06-26T21:41:00-03:00</updated>
-    <id>http://rabc.github.com/2012/06/26/enquanto-voce-reclama-tem-gente-fazendo-acontecer</id>
-    <content type="html"><![CDATA[<p>É claro que você pode reclamar. Aliás, deve reclamar, essa é a grande vantagem do ser humano. Mas para cada dois que estão reclamando,
-tem um fazendo alguma coisa grande.</p>
+    <title type="html"><![CDATA[R.I.P. Aaron Swartz e por que você deve saber quem ele foi]]></title>
+    <link href="http://rabc.github.com/2013/01/13/r-i-p-aaron-swartz-e-por-que-voce-deve-saber-quem-ele-foi/"/>
+    <updated>2013-01-13T14:00:00-02:00</updated>
+    <id>http://rabc.github.com/2013/01/13/r-i-p-aaron-swartz-e-por-que-voce-deve-saber-quem-ele-foi</id>
+    <content type="html"><![CDATA[<p>Aos 14 anos fez parte do grupo que criou as especificações para o RSS 1.0. Também viria a ajudar na criação do Creative Commons.</p>
 
-<p>Qualquer um que acompanhe esse mundo de desenvolvedores e startups vê casos em que pessoas, tecnologias e empresas passam pelo escrutínio
-do público. É inevitável, a partir do momento que você (por opção ou não) conseguiu uma grande visibilidade.</p>
+<p>Começou a estudar em Stanford, mas largou e começou uma startup. Mais tarde juntou-se ao Reddit, onde criou o framework web.py,
+que foi fundamental no início do Reddit.</p>
 
-<p>A diferença está em uma das pontas saber como reclamar e a outra ponta saber como lidar.</p>
+<p>Enfrentou o governo Americano e baixou uma parte do banco de dados do sistema <a href="http://en.wikipedia.org/wiki/Pacer">PACER</a>, que possui
+informações públicas sobre julgamentos mas onde o acesso é cobrado. Fez isso pois acreditava que o conhecimento deveria ser livre.</p>
+
+<p>Aí resolveu enfrentar alguém maior ainda: a plataforma de pesquisas científicas <a href="http://en.wikipedia.org/wiki/JSTOR">JSTOR</a>. Entrou no MIT e
+baixou milhares de artigos científicos. Fez por ainda acreditar no conhecimento livre.</p>
+
+<p>Aos 26 anos, suicidou-se. Depressão e a perspectiva de ter que enfrentar a prisão por causa do caso JSTOR,
+<a href="http://boingboing.net/2013/01/12/rip-aaron-swartz.html">como Cory Doctorow bem falou</a>.</p>
 
 <!--more-->
 
 
-<h2>Haters gonna hate</h2>
+<h2>O conhecimento deveria ser livre</h2>
 
-<p>Essa frase representa a internet. É o motivo para o qual ela foi feita. Afinal, é fácil reclamar e espernear só batendo os dedos no teclado.</p>
+<p>A humanidade só chegou aonde chegou graças ao conhecimento adquirido por pesquisas científicas e humanas, graças a colaboração
+entre pesquisadores. A internet começou como uma forma de interligar universidades por precisarem de uma maneira mais rápida
+para que as pesquisas fossem compartilhadas. Então, por que plataformas como o JSTOR são toleradas?</p>
 
-<p>Se você não recebe um dinheiro, como foi o caso de algumas das reclamações para a <a href="http://boo-box.com/">boo-box</a> semana passada, você deve
-reclamar <strong>com a empresa</strong> e não na foto da viagem do fundador da empresa. Se você fraudou o sistema, reclame também com a empresa.</p>
+<p>Qualquer um que já fez algum trabalho acadêmico, não importa o grau, sabe o que é ter que depender de estar fisicamente dentro de uma
+universidade apenas para baixar gratuitamente algo que irá colaborar para a sua pesquisa. Essa restrição é uma atrocidade em uma era em
+que podemos estar fisicamente em um lugar mas virtualmente em todos. Pior ainda são os valores exorbitantes e tirados do éter que podem
+ser pagos para ter acesso a uma pesquisa que pertence a outra pessoa e que dificilmente receberá uma parte desse dinheiro.</p>
 
-<p>Quer fazer isso publicamente, ótimo, desde que saiba fazer.</p>
+<p>Esse conhecimento também pode trazer grandes benefícios se uma pessoa não pertence ao meio acadêmico. Durante a pós-graduação que fiz,
+tive acesso a pesquisas sobre geolocalização que se tornaram conhecimentos importantes que comecei a utilizar e continuará sendo utilizado.
+Essas pesquisas também teriam sido fundamentais em projetos passados que participei.</p>
 
-<h2>Reclame e se defenda, mas traga algo útil para a discussão</h2>
+<h2>Mas alguém pagou para produzirem essas pesquisas</h2>
 
-<p>Tenha sempre uma <a href="http://dom.as/2012/06/26/memsql-rage/">base para reclamar</a>. Só reclamar digitando no seu teclado são palavras jogadas ao vento
-<span style="font-size:10px;">(também sei ser clichê, leave me alone!)</span>.</p>
+<p>Sim. Universidades públicas do mundo todo pagaram os estudantes. Empresas pagaram pois se beneficiaram dessa pesquisa, através de inovação
+e/ou patentes. Estudantes formaram novas empresas e criaram novos produtos a partir dessas pesquisas.</p>
 
-<p>Apresente dados, informações, explicações, justificativas. Mostre que você sabe do que está falando e espere a
-<a href="http://news.ycombinator.com/item?id=4162488">resposta da empresa</a>.</p>
+<p>Nunca na história da humanidade foi tão fácil divulgar e ler o conhecimento. Wikipedia possui mais verbetes que qualquer enciclopédia na
+história da humanidade, <a href="https://github.com/twitter">diversas</a> <a href="https://github.com/facebook">empresas</a> abrem o código de seus projetos
+internos sem pedir um centavo. Conhecimento aberto serve para ser validado, arrumado e melhorado.</p>
 
-<p>A empresa <strong>deve</strong> responder do mesmo modo. Se justifique, explique, mostre como funciona. Vivemos em uma era onde a transparência é uma coisa boa,
-aproveite para mostrar que não é uma entidade mais-do-mesmo.</p>
+<h2>Mundo acadêmico deixou de fazer parte do mundo real</h2>
 
-<p>Não fique apenas dizendo &#8220;você está fazendo isso do jeito errado!&#8221;, o mesmo modo como a comunidade do node.js
-<a href="http://www.unlimitednovelty.com/2011/10/nodejs-has-jumped-shark.html">reagiu</a> tentando justificar um argumento propositalmente errado mas
-com um motivo certo ao mesmo tempo.</p>
+<p>É por causa dessa idéia de se fechar que as pessoas cada vez mais acham que universidades deixam de ser uma coisa útil. Um ambiente que foi
+feito para se aprender tornou-se um ambiente com pessoas acham que estão no alto de uma torre de marfim olhando os meros mortais se digladiando
+abaixo.</p>
 
-<div class='embed tweet'><blockquote class="twitter-tweet tw-align-center" lang="pt"><p>Já fui hater e uma coisa que aprendi foi: enquanto vocês perdem tempo reclamando e discutindo, tem gente fazendo as coisas acontecerem.</p>&mdash; rabc (@rabc) <a href="https://twitter.com/rabc/status/216332193885208576" data-datetime="2012-06-23T00:49:48+00:00">junho 23, 2012</a></blockquote>
-<script src="http://rabc.github.com//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-
-
-<p></p>
-
-<h2>Hackers gonna hack</h2>
-
-<p>Reclamar tem um preço: seu tempo, algo valioso.</p>
-
-<p>Quem acompanha a boo-box a algum tempo viu como a equipe deles fez a idéia do <a href="http://twitter.com/marcogomes">@marcogomes</a> acontecer. Com certeza
-isso não teria acontecido se tivessem perdido tempo reclamando das idéias parecidas que já existiam.</p>
-
-<p>Enquanto pessoas reclamavam nos comentários <a href="http://blogs.estadao.com.br/link/hackatao-reune-programadores-e-jornalistas-em-encontro-inedito-no-pais/">da matéria sobre o Hackatão</a>,
-vários desenvolvedores e jornalistas estavam reunidos fazendo projetos relevantes e tentando extrair informações úteis para todos. Como você
-usa seu tempo te define.</p>
-
-<p>Zuckerberg não construiu uma empresa de $70 bilhões em menos de 10 anos tirando do ar cada reclamação das pessoas sobre o Facebook.</p>
+<p>Conhecimento foi feito para enriquecer e não somente para trazer lucro.</p>
 ]]></content>
   </entry>
   
