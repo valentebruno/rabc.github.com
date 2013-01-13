@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: evento | Ricardo Borelli]]></title>
-  <link href="http://rabc.github.com/blog/categories/evento/atom.xml" rel="self"/>
-  <link href="http://rabc.github.com/"/>
-  <updated>2013-01-13T13:58:45-02:00</updated>
-  <id>http://rabc.github.com/</id>
+  <link href="http://rabc.fences.com.br/blog/categories/evento/atom.xml" rel="self"/>
+  <link href="http://rabc.fences.com.br/"/>
+  <updated>2013-01-13T14:07:28-02:00</updated>
+  <id>http://rabc.fences.com.br/</id>
   <author>
     <name><![CDATA[Ricardo Borelli]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[iOS Tech Talk SP 2012]]></title>
-    <link href="http://rabc.github.com/2012/01/12/ios-tech-talk-sp-2012/"/>
+    <link href="http://rabc.fences.com.br/2012/01/12/ios-tech-talk-sp-2012/"/>
     <updated>2012-01-12T20:00:00-02:00</updated>
-    <id>http://rabc.github.com/2012/01/12/ios-tech-talk-sp-2012</id>
+    <id>http://rabc.fences.com.br/2012/01/12/ios-tech-talk-sp-2012</id>
     <content type="html"><![CDATA[<p>Dia 09/01/2012 rolou o iOS Tech Talk em São Paulo e fiz um post sobre o evento para o blog da Maya:
 <a href="http://labs.maya.im/2012/01/ios-5-tech-talk-world-tour-a-primeira-edicao-em-sao-paulo/">http://labs.maya.im/2012/01/ios-5-tech-talk-world-tour-a-primeira-edicao-em-sao-paulo/</a></p>
 ]]></content>

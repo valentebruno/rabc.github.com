@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: wiki | Ricardo Borelli]]></title>
-  <link href="http://rabc.github.com/blog/categories/wiki/atom.xml" rel="self"/>
-  <link href="http://rabc.github.com/"/>
-  <updated>2013-01-13T13:58:45-02:00</updated>
-  <id>http://rabc.github.com/</id>
+  <link href="http://rabc.fences.com.br/blog/categories/wiki/atom.xml" rel="self"/>
+  <link href="http://rabc.fences.com.br/"/>
+  <updated>2013-01-13T14:07:28-02:00</updated>
+  <id>http://rabc.fences.com.br/</id>
   <author>
     <name><![CDATA[Ricardo Borelli]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Wikifique-se e recupere sua sanidade]]></title>
-    <link href="http://rabc.github.com/2012/01/13/wikifique-se-e-recupere-sua-sanidade/"/>
+    <link href="http://rabc.fences.com.br/2012/01/13/wikifique-se-e-recupere-sua-sanidade/"/>
     <updated>2012-01-13T20:33:00-02:00</updated>
-    <id>http://rabc.github.com/2012/01/13/wikifique-se-e-recupere-sua-sanidade</id>
+    <id>http://rabc.fences.com.br/2012/01/13/wikifique-se-e-recupere-sua-sanidade</id>
     <content type="html"><![CDATA[<p>(apesar desse post falar em alguns termos técnicos, recomendo continuar a leitura mesmo que você não seja programador)</p>
 
 <p>Sempre fui um <em>migrante tecnológico</em>: de programação desktop para web e para mobile, de Windows para Linux e para Mac OS X (é impossível

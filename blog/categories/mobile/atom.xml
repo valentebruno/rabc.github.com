@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: mobile | Ricardo Borelli]]></title>
-  <link href="http://rabc.github.com/blog/categories/mobile/atom.xml" rel="self"/>
-  <link href="http://rabc.github.com/"/>
-  <updated>2013-01-13T13:58:45-02:00</updated>
-  <id>http://rabc.github.com/</id>
+  <link href="http://rabc.fences.com.br/blog/categories/mobile/atom.xml" rel="self"/>
+  <link href="http://rabc.fences.com.br/"/>
+  <updated>2013-01-13T14:07:28-02:00</updated>
+  <id>http://rabc.fences.com.br/</id>
   <author>
     <name><![CDATA[Ricardo Borelli]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Privacidade Mobile]]></title>
-    <link href="http://rabc.github.com/2012/02/09/privacidade-mobile/"/>
+    <link href="http://rabc.fences.com.br/2012/02/09/privacidade-mobile/"/>
     <updated>2012-02-09T21:22:00-02:00</updated>
-    <id>http://rabc.github.com/2012/02/09/privacidade-mobile</id>
+    <id>http://rabc.fences.com.br/2012/02/09/privacidade-mobile</id>
     <content type="html"><![CDATA[<p>Privacidade. Essa palavrinha que faz mágica quando se quer criar histerias coletivas.</p>
 
 <p>Minha opinião sobre isso é a seguinte: quer privacidade? Então saia do Foursquare e pare de postar suas fotos no Instagram e no Facebook, pois

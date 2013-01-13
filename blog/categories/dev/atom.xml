@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: dev | Ricardo Borelli]]></title>
-  <link href="http://rabc.github.com/blog/categories/dev/atom.xml" rel="self"/>
-  <link href="http://rabc.github.com/"/>
-  <updated>2013-01-13T13:58:45-02:00</updated>
-  <id>http://rabc.github.com/</id>
+  <link href="http://rabc.fences.com.br/blog/categories/dev/atom.xml" rel="self"/>
+  <link href="http://rabc.fences.com.br/"/>
+  <updated>2013-01-13T14:07:28-02:00</updated>
+  <id>http://rabc.fences.com.br/</id>
   <author>
     <name><![CDATA[Ricardo Borelli]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Lição #1: Esqueça tudo o que você sabe]]></title>
-    <link href="http://rabc.github.com/2011/12/04/licao-1-esqueca-tudo-o-que-voce-sabe/"/>
+    <link href="http://rabc.fences.com.br/2011/12/04/licao-1-esqueca-tudo-o-que-voce-sabe/"/>
     <updated>2011-12-04T22:50:00-02:00</updated>
-    <id>http://rabc.github.com/2011/12/04/licao-1-esqueca-tudo-o-que-voce-sabe</id>
+    <id>http://rabc.fences.com.br/2011/12/04/licao-1-esqueca-tudo-o-que-voce-sabe</id>
     <content type="html"><![CDATA[<p>Aprender um novo idioma é difícil. Você se sente como uma criança de 5 anos tentando repetir (sem sucesso) o alfabeto, enquanto procura sentido
 e algum padrão no que está falando. Até que você percebe que existem palavras e estrutura parecidas, mas completamente diferente, e desiste
 de tentar relacionar o novo idioma com o seu idioma nativo.</p>

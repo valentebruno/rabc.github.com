@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: projetos | Ricardo Borelli]]></title>
-  <link href="http://rabc.github.com/blog/categories/projetos/atom.xml" rel="self"/>
-  <link href="http://rabc.github.com/"/>
-  <updated>2013-01-13T13:58:45-02:00</updated>
-  <id>http://rabc.github.com/</id>
+  <link href="http://rabc.fences.com.br/blog/categories/projetos/atom.xml" rel="self"/>
+  <link href="http://rabc.fences.com.br/"/>
+  <updated>2013-01-13T14:07:28-02:00</updated>
+  <id>http://rabc.fences.com.br/</id>
   <author>
     <name><![CDATA[Ricardo Borelli]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Projetos são pessoas. Pessoas não são diagramas.]]></title>
-    <link href="http://rabc.github.com/2012/04/30/projetos-sao-pessoas-pessoas-nao-sao-diagramas/"/>
+    <link href="http://rabc.fences.com.br/2012/04/30/projetos-sao-pessoas-pessoas-nao-sao-diagramas/"/>
     <updated>2012-04-30T21:38:00-03:00</updated>
-    <id>http://rabc.github.com/2012/04/30/projetos-sao-pessoas-pessoas-nao-sao-diagramas</id>
+    <id>http://rabc.fences.com.br/2012/04/30/projetos-sao-pessoas-pessoas-nao-sao-diagramas</id>
     <content type="html"><![CDATA[<blockquote><p>Lazy kids.</p>
 
 <p>Whatever happened to hard work?</p>

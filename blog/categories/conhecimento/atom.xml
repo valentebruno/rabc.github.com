@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: conhecimento | Ricardo Borelli]]></title>
-  <link href="http://rabc.github.com/blog/categories/conhecimento/atom.xml" rel="self"/>
-  <link href="http://rabc.github.com/"/>
-  <updated>2013-01-13T13:58:45-02:00</updated>
-  <id>http://rabc.github.com/</id>
+  <link href="http://rabc.fences.com.br/blog/categories/conhecimento/atom.xml" rel="self"/>
+  <link href="http://rabc.fences.com.br/"/>
+  <updated>2013-01-13T14:07:28-02:00</updated>
+  <id>http://rabc.fences.com.br/</id>
   <author>
     <name><![CDATA[Ricardo Borelli]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[R.I.P. Aaron Swartz e por que você deve saber quem ele foi]]></title>
-    <link href="http://rabc.github.com/2013/01/13/r-i-p-aaron-swartz-e-por-que-voce-deve-saber-quem-ele-foi/"/>
+    <link href="http://rabc.fences.com.br/2013/01/13/r-i-p-aaron-swartz-e-por-que-voce-deve-saber-quem-ele-foi/"/>
     <updated>2013-01-13T14:00:00-02:00</updated>
-    <id>http://rabc.github.com/2013/01/13/r-i-p-aaron-swartz-e-por-que-voce-deve-saber-quem-ele-foi</id>
+    <id>http://rabc.fences.com.br/2013/01/13/r-i-p-aaron-swartz-e-por-que-voce-deve-saber-quem-ele-foi</id>
     <content type="html"><![CDATA[<p>Aos 14 anos fez parte do grupo que criou as especificações para o RSS 1.0. Também viria a ajudar na criação do Creative Commons.</p>
 
 <p>Começou a estudar em Stanford, mas largou e começou uma startup. Mais tarde juntou-se ao Reddit, onde criou o framework web.py,

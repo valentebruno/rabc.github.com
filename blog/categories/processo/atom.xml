@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: processo | Ricardo Borelli]]></title>
-  <link href="http://rabc.github.com/blog/categories/processo/atom.xml" rel="self"/>
-  <link href="http://rabc.github.com/"/>
-  <updated>2013-01-13T13:58:45-02:00</updated>
-  <id>http://rabc.github.com/</id>
+  <link href="http://rabc.fences.com.br/blog/categories/processo/atom.xml" rel="self"/>
+  <link href="http://rabc.fences.com.br/"/>
+  <updated>2013-01-13T14:07:28-02:00</updated>
+  <id>http://rabc.fences.com.br/</id>
   <author>
     <name><![CDATA[Ricardo Borelli]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Caos.]]></title>
-    <link href="http://rabc.github.com/2012/04/02/caos/"/>
+    <link href="http://rabc.fences.com.br/2012/04/02/caos/"/>
     <updated>2012-04-02T20:48:00-03:00</updated>
-    <id>http://rabc.github.com/2012/04/02/caos</id>
+    <id>http://rabc.fences.com.br/2012/04/02/caos</id>
     <content type="html"><![CDATA[<blockquote><p>“Introduce a little anarchy, upset the established order, and everything becomes chaos, I’m an agent of chaos,
 and you know the thing about chaos? It’s fair.”</p>
 
@@ -68,7 +68,7 @@ o risco de sentir desorganizado.</p>
 <h2>Caos te deixa preparado para o inesperado</h2>
 
 <div style="text-align:center;">
-    <a href="http://rabc.github.com/images/chaos.jpg"><img src="/images/chaos.jpg" width="300" height="218"></a>
+    <a href="http://rabc.fences.com.br/images/chaos.jpg"><img src="/images/chaos.jpg" width="300" height="218"></a>
     <br />
     <p style="font-size:14px;">Fonte: <a href="http://www.reddit.com/tb/qzhoz">http://www.reddit.com/tb/qzhoz</a></p>
 </div>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Ricardo Borelli]]></title>
-  <link href="http://rabc.github.com/atom.xml" rel="self"/>
-  <link href="http://rabc.github.com/"/>
-  <updated>2013-01-13T13:58:45-02:00</updated>
-  <id>http://rabc.github.com/</id>
+  <link href="http://rabc.fences.com.br/atom.xml" rel="self"/>
+  <link href="http://rabc.fences.com.br/"/>
+  <updated>2013-01-13T14:07:28-02:00</updated>
+  <id>http://rabc.fences.com.br/</id>
   <author>
     <name><![CDATA[Ricardo Borelli]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[R.I.P. Aaron Swartz e por que você deve saber quem ele foi]]></title>
-    <link href="http://rabc.github.com/2013/01/13/r-i-p-aaron-swartz-e-por-que-voce-deve-saber-quem-ele-foi/"/>
+    <link href="http://rabc.fences.com.br/2013/01/13/r-i-p-aaron-swartz-e-por-que-voce-deve-saber-quem-ele-foi/"/>
     <updated>2013-01-13T14:00:00-02:00</updated>
-    <id>http://rabc.github.com/2013/01/13/r-i-p-aaron-swartz-e-por-que-voce-deve-saber-quem-ele-foi</id>
+    <id>http://rabc.fences.com.br/2013/01/13/r-i-p-aaron-swartz-e-por-que-voce-deve-saber-quem-ele-foi</id>
     <content type="html"><![CDATA[<p>Aos 14 anos fez parte do grupo que criou as especificações para o RSS 1.0. Também viria a ajudar na criação do Creative Commons.</p>
 
 <p>Começou a estudar em Stanford, mas largou e começou uma startup. Mais tarde juntou-se ao Reddit, onde criou o framework web.py,
@@ -71,9 +71,9 @@ abaixo.</p>
   
   <entry>
     <title type="html"><![CDATA[Projetos são pessoas. Pessoas não são diagramas.]]></title>
-    <link href="http://rabc.github.com/2012/04/30/projetos-sao-pessoas-pessoas-nao-sao-diagramas/"/>
+    <link href="http://rabc.fences.com.br/2012/04/30/projetos-sao-pessoas-pessoas-nao-sao-diagramas/"/>
     <updated>2012-04-30T21:38:00-03:00</updated>
-    <id>http://rabc.github.com/2012/04/30/projetos-sao-pessoas-pessoas-nao-sao-diagramas</id>
+    <id>http://rabc.fences.com.br/2012/04/30/projetos-sao-pessoas-pessoas-nao-sao-diagramas</id>
     <content type="html"><![CDATA[<blockquote><p>Lazy kids.</p>
 
 <p>Whatever happened to hard work?</p>
@@ -123,9 +123,9 @@ e ajudar.</p>
   
   <entry>
     <title type="html"><![CDATA[A arquitetura de $1 bilhão (ou por que não se vive somente do número de usuários)]]></title>
-    <link href="http://rabc.github.com/2012/04/09/a-arquitetura-de-bilhao-ou-por-que-nao-se-vive-somente-do-numero-de-usuarios/"/>
+    <link href="http://rabc.fences.com.br/2012/04/09/a-arquitetura-de-bilhao-ou-por-que-nao-se-vive-somente-do-numero-de-usuarios/"/>
     <updated>2012-04-09T20:55:00-03:00</updated>
-    <id>http://rabc.github.com/2012/04/09/a-arquitetura-de-bilhao-ou-por-que-nao-se-vive-somente-do-numero-de-usuarios</id>
+    <id>http://rabc.fences.com.br/2012/04/09/a-arquitetura-de-bilhao-ou-por-que-nao-se-vive-somente-do-numero-de-usuarios</id>
     <content type="html"><![CDATA[<p>Ultimamente, todas as métricas sobre uma startup falam do seu número de usuários. Claro que com a compra Instagram não poderia ser diferente.
 Mas existe, sim, algo além disso que poucos falam: a arquitetura do sistema.</p>
 
@@ -140,7 +140,7 @@ de ser somente isso, fica difícil pensar como fazer sem deixar gargalos.</p>
 <h2>O milagre da multiplicação dos usuários</h2>
 
 <div class='embed tweet'><blockquote class="twitter-tweet tw-align-center" lang="pt"><p>It took AOL 9 years to hit 1 million users. Facebook 9 months. Draw Something 9 days.</p>&mdash; Shane Mac (@ShaneMac) <a href="https://twitter.com/ShaneMac/status/182559236763553792" data-datetime="2012-03-21T20:08:08+00:00">março 21, 2012</a></blockquote>
-<script src="http://rabc.github.com//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+<script src="http://rabc.fences.com.br//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 
 
 <p></p>
@@ -185,9 +185,9 @@ de mais novo, você estará sempre para trás na corrida pela inovação.</p>
   
   <entry>
     <title type="html"><![CDATA[Caos.]]></title>
-    <link href="http://rabc.github.com/2012/04/02/caos/"/>
+    <link href="http://rabc.fences.com.br/2012/04/02/caos/"/>
     <updated>2012-04-02T20:48:00-03:00</updated>
-    <id>http://rabc.github.com/2012/04/02/caos</id>
+    <id>http://rabc.fences.com.br/2012/04/02/caos</id>
     <content type="html"><![CDATA[<blockquote><p>“Introduce a little anarchy, upset the established order, and everything becomes chaos, I’m an agent of chaos,
 and you know the thing about chaos? It’s fair.”</p>
 
@@ -238,7 +238,7 @@ o risco de sentir desorganizado.</p>
 <h2>Caos te deixa preparado para o inesperado</h2>
 
 <div style="text-align:center;">
-    <a href="http://rabc.github.com/images/chaos.jpg"><img src="http://rabc.github.com/images/chaos.jpg" width="300" height="218"></a>
+    <a href="http://rabc.fences.com.br/images/chaos.jpg"><img src="http://rabc.fences.com.br/images/chaos.jpg" width="300" height="218"></a>
     <br />
     <p style="font-size:14px;">Fonte: <a href="http://www.reddit.com/tb/qzhoz">http://www.reddit.com/tb/qzhoz</a></p>
 </div>
@@ -257,9 +257,9 @@ algo dê errado. Isso sim leva a uma organização melhor, já que você saberá
   
   <entry>
     <title type="html"><![CDATA[Privacidade Mobile]]></title>
-    <link href="http://rabc.github.com/2012/02/09/privacidade-mobile/"/>
+    <link href="http://rabc.fences.com.br/2012/02/09/privacidade-mobile/"/>
     <updated>2012-02-09T21:22:00-02:00</updated>
-    <id>http://rabc.github.com/2012/02/09/privacidade-mobile</id>
+    <id>http://rabc.fences.com.br/2012/02/09/privacidade-mobile</id>
     <content type="html"><![CDATA[<p>Privacidade. Essa palavrinha que faz mágica quando se quer criar histerias coletivas.</p>
 
 <p>Minha opinião sobre isso é a seguinte: quer privacidade? Então saia do Foursquare e pare de postar suas fotos no Instagram e no Facebook, pois
@@ -312,9 +312,9 @@ dentro do sistema. Assim garanto que ela não seria de fácil manipulação e ao
   
   <entry>
     <title type="html"><![CDATA[Wikifique-se e recupere sua sanidade]]></title>
-    <link href="http://rabc.github.com/2012/01/13/wikifique-se-e-recupere-sua-sanidade/"/>
+    <link href="http://rabc.fences.com.br/2012/01/13/wikifique-se-e-recupere-sua-sanidade/"/>
     <updated>2012-01-13T20:33:00-02:00</updated>
-    <id>http://rabc.github.com/2012/01/13/wikifique-se-e-recupere-sua-sanidade</id>
+    <id>http://rabc.fences.com.br/2012/01/13/wikifique-se-e-recupere-sua-sanidade</id>
     <content type="html"><![CDATA[<p>(apesar desse post falar em alguns termos técnicos, recomendo continuar a leitura mesmo que você não seja programador)</p>
 
 <p>Sempre fui um <em>migrante tecnológico</em>: de programação desktop para web e para mobile, de Windows para Linux e para Mac OS X (é impossível
@@ -338,7 +338,7 @@ sempre vai precisar ter a mão: informações dos seus projetos, referências da
 e sites que você utiliza.</p>
 
 <div style="text-align:center;">
-<img src="http://rabc.github.com/images/post_wiki/markdown_wiki.png" width="400" height="223">
+<img src="http://rabc.fences.com.br/images/post_wiki/markdown_wiki.png" width="400" height="223">
 <br />
 <p style="font-size:14px;">Minha referência de Markdown enquanto escrevo esse post</p>
 </div>
@@ -358,7 +358,7 @@ pré-configurado.</p>
 desde que você se encontre nela.</p>
 
 <div style="text-align:center;">
-<img src="http://rabc.github.com/images/post_wiki/sidebar.png" width="400" height="398">
+<img src="http://rabc.fences.com.br/images/post_wiki/sidebar.png" width="400" height="398">
 <br />
 <p style="font-size:14px;">Isso é o que a minha Wiki tem atualmente</p>
 </div>
@@ -378,9 +378,9 @@ um novo item, uma forma de ter uma visão geral do seu projeto e de ter informa�
   
   <entry>
     <title type="html"><![CDATA[iOS Tech Talk SP 2012]]></title>
-    <link href="http://rabc.github.com/2012/01/12/ios-tech-talk-sp-2012/"/>
+    <link href="http://rabc.fences.com.br/2012/01/12/ios-tech-talk-sp-2012/"/>
     <updated>2012-01-12T20:00:00-02:00</updated>
-    <id>http://rabc.github.com/2012/01/12/ios-tech-talk-sp-2012</id>
+    <id>http://rabc.fences.com.br/2012/01/12/ios-tech-talk-sp-2012</id>
     <content type="html"><![CDATA[<p>Dia 09/01/2012 rolou o iOS Tech Talk em São Paulo e fiz um post sobre o evento para o blog da Maya:
 <a href="http://labs.maya.im/2012/01/ios-5-tech-talk-world-tour-a-primeira-edicao-em-sao-paulo/">http://labs.maya.im/2012/01/ios-5-tech-talk-world-tour-a-primeira-edicao-em-sao-paulo/</a></p>
 ]]></content>
@@ -388,9 +388,9 @@ um novo item, uma forma de ter uma visão geral do seu projeto e de ter informa�
   
   <entry>
     <title type="html"><![CDATA[Sobre o SOPA (ou por que esse tipo de lei deveria causar mais medo em você)]]></title>
-    <link href="http://rabc.github.com/2011/12/29/sobre-o-sopa-ou-por-que-esse-tipo-de-lei-deveria-causar-mais-medo-em-voce/"/>
+    <link href="http://rabc.fences.com.br/2011/12/29/sobre-o-sopa-ou-por-que-esse-tipo-de-lei-deveria-causar-mais-medo-em-voce/"/>
     <updated>2011-12-29T19:18:00-02:00</updated>
-    <id>http://rabc.github.com/2011/12/29/sobre-o-sopa-ou-por-que-esse-tipo-de-lei-deveria-causar-mais-medo-em-voce</id>
+    <id>http://rabc.fences.com.br/2011/12/29/sobre-o-sopa-ou-por-que-esse-tipo-de-lei-deveria-causar-mais-medo-em-voce</id>
     <content type="html"><![CDATA[<p>Americanos adoram criar siglas para suas leis: DMCA, ACTA, COICA. E a lei do momento atende pelo nome de SOPA.</p>
 
 <p><strong>tl;dr</strong> SOPA é uma lei em que uma mera <em>acusação</em> já pode fazer com que o seu conteúdo online seja abatido, destruído e esquartejado. Ah, não
@@ -445,9 +445,9 @@ a pesquisarem mais sobre o assunto e se posicionarem.</p>
   
   <entry>
     <title type="html"><![CDATA[Lição #1: Esqueça tudo o que você sabe]]></title>
-    <link href="http://rabc.github.com/2011/12/04/licao-1-esqueca-tudo-o-que-voce-sabe/"/>
+    <link href="http://rabc.fences.com.br/2011/12/04/licao-1-esqueca-tudo-o-que-voce-sabe/"/>
     <updated>2011-12-04T22:50:00-02:00</updated>
-    <id>http://rabc.github.com/2011/12/04/licao-1-esqueca-tudo-o-que-voce-sabe</id>
+    <id>http://rabc.fences.com.br/2011/12/04/licao-1-esqueca-tudo-o-que-voce-sabe</id>
     <content type="html"><![CDATA[<p>Aprender um novo idioma é difícil. Você se sente como uma criança de 5 anos tentando repetir (sem sucesso) o alfabeto, enquanto procura sentido
 e algum padrão no que está falando. Até que você percebe que existem palavras e estrutura parecidas, mas completamente diferente, e desiste
 de tentar relacionar o novo idioma com o seu idioma nativo.</p>
@@ -490,9 +490,9 @@ cada uma delas e como elas funcionam.</p>
   
   <entry>
     <title type="html"><![CDATA[Backend X Mobile App: o que fazer o que não fazer e como fazer]]></title>
-    <link href="http://rabc.github.com/2011/11/23/backend-x-mobile-app-o-que-fazer-o-que-nao-fazer-e-como-fazer/"/>
+    <link href="http://rabc.fences.com.br/2011/11/23/backend-x-mobile-app-o-que-fazer-o-que-nao-fazer-e-como-fazer/"/>
     <updated>2011-11-23T21:43:00-02:00</updated>
-    <id>http://rabc.github.com/2011/11/23/backend-x-mobile-app-o-que-fazer-o-que-nao-fazer-e-como-fazer</id>
+    <id>http://rabc.fences.com.br/2011/11/23/backend-x-mobile-app-o-que-fazer-o-que-nao-fazer-e-como-fazer</id>
     <content type="html"><![CDATA[<p>Dificilmente um aplicativo mobile (qualquer plataforma, choose one) vive sozinho, 90% das vezes é necessário um back-end para guardar,
 transmitir, processar as informações.</p>
 
